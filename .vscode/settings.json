@@ -1,0 +1,10 @@
+{
+	"[qml]": {
+		"editor.defaultFormatter": "theqtcompany.qt-qml",
+		"editor.formatOnSave": true
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnSave": true
+	}
+}

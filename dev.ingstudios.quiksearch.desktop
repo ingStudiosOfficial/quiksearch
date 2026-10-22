@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Quiksearch
+Exec=quiksearch
+Icon=kde
+Type=Application
+Terminal=false
+Categories=Utility

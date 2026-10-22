@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "quiksearch"
+
+license = { file = "LICENSE" }
+
+version = "0.1"
+authors = [
+    {name = "Ethan Lee Qi Yang", email = "contact@ingstudios.dev"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Utilities",
+    "Programming Language :: Python",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.scripts]
+
+quiksearch = "quiksearch.app:main"
+
+
+[tool.setuptools]
+
+packages = ["quiksearch"]
+
+package-dir = {quiksearch = "src"}
+
+include-package-data = true
+
+[tool.setuptools.data-files]
+"share/applications" = ["dev.ingstudios.quiksearch.desktop"]

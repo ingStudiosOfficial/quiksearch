@@ -5,3 +5,4 @@ Icon=kde
 Type=Application
 Terminal=false
 Categories=Utility
+X-KDE-Shortcuts=Meta+K

@@ -1,2 +1,7 @@
 .venv/
 *.egg-info/
+dist/
+flatpak-build-dir/
+.flatpak-builder/
+build/
+*/__pycache__/

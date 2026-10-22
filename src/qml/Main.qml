@@ -77,6 +77,9 @@ Kirigami.ApplicationWindow {
                         selectAll();
                     }
                 }
+                Component.onCompleted: {
+                    searchField.forceActiveFocus();
+                }
             }
 
             Controls.Button {

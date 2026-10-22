@@ -10,7 +10,7 @@ from PySide6.QtCore import QUrl
 from PySide6.QtQml import QQmlApplicationEngine
 from PySide6.QtWebEngineQuick import QtWebEngineQuick
 
-from .settings_manager import SettingsManager
+from quiksearch.settings_manager import SettingsManager # type: ignore
 
 def main():
     QtWebEngineQuick.initialize()
